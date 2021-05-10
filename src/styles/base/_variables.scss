@@ -1,0 +1,10 @@
+$primary-color: #457b9d;
+$dark-color: #1d3557;
+$lightblue-color: #a8dadc;
+$pale-color: #f1faee;
+$red-color: #e63946;
+
+@mixin default-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
