@@ -1,0 +1,25 @@
+.services{
+    //background-color: lightcoral;
+    display: flex;
+    padding: 6rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    &__item{
+        background-color: $dark-color;
+        max-width: 300px;
+        text-align: center;
+        padding: 20px;
+        margin: 3rem;
+
+        &--img{
+            max-width: 150px;
+        }
+
+        &--p{
+            color: $pale-color
+        }
+    }
+    
+}
+

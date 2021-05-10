@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="hero">
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item className='hero__item'>
           <img
             className="d-block w-100"
             src={slider1}
